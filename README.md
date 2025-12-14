@@ -5,7 +5,19 @@ This repository contains a **Dash-based interactive dashboard** for analyzing bu
 ---
 
 ## Project Structure
-
+Nepal-Earthquake-Damage-Analysis/
+│
+├─ assets/
+│   ├─ figs.pkl            # Precomputed Plotly figures
+│   └─ metrics.csv         # Model performance metrics
+│
+├─ model/
+│   ├─ logreg.joblib       # Logistic Regression model
+│   └─ tree.joblib         # Decision Tree model
+│
+├─ plotly_app.py           # Main Dash application
+├─ requirements.txt        # Python dependencies
+└─ README.md
 ---
 
 ## Folder Contents
